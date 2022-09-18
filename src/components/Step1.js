@@ -4,6 +4,7 @@ const Step1 = ({username, userage, useraddr, usernum, changeInput, focusRef, onN
 
     return (
         <div>
+            <h2>회원 정보 입력</h2>
             <p>
                 <label>이름 :</label>
                 <input ref={focusRef} value={username} onChange={changeInput} name="username" />
